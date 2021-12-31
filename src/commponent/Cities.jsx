@@ -51,11 +51,11 @@ export default function About() {
         </div>
         <div className="showinformation">
           <div className="theContent">
-            <h4> City : {weather.city} </h4>
+            <h4>  {weather.city} </h4>
 
-            <h4> Temp : {weather.temp}</h4>
-            <h4> Country : {weather.country}</h4>
-           <h4> Time : {weather.localtime}</h4> 
+            <h4>  {weather.temp}</h4>
+            <h4> {weather.country}</h4>
+           <h4>  {weather.localtime}</h4> 
 
             <Image
               src={weather.icon}
