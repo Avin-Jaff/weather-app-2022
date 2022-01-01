@@ -53,7 +53,7 @@ export default function About() {
           <div className="theContent">
             <h4>  {weather.city} </h4>
 
-            <h4>  {weather.temp}</h4>
+            <h4>  {weather.temp} C°</h4>
             <h4> {weather.country}</h4>
            <h4>  {weather.localtime}</h4> 
 
